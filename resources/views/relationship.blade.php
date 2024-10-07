@@ -200,7 +200,7 @@
             </div>
         </div>
 </section>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAj3ofG6IUDV2xya1sNaVLNbDzjUwrsgk0&libraries=places"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=your_key&libraries=places"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script type="text/javascript" src="autocomplete.js"></script>
     
