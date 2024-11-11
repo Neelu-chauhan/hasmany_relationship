@@ -9,10 +9,10 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 class resultModel extends Model
 {
     use HasFactory;
-    protected $table = 'results';
-    protected $fillable = ['student_id','result'];
-    public function getstudent()
-    {
-        return $this->belongsTo(studentModel::class,'id');
-    }
+    protected $table = 'address';
+    protected $fillable = ['country_name','user_id'];
+    
+    //   public function address(){
+    //     return $this->belongsTo(User::class,'user_id','id');
+    // }
 }

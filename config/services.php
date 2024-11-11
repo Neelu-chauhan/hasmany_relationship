@@ -34,5 +34,10 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'firebase' => [
+    'credentials' => storage_path('firebase_credentials.json'),
+    'database_uri' => env('FIREBASE_DATABASE_URI'),
+    'http_verify' => env('FIREBASE_CONFIG_HTTP_VERIFY', true),
+],
 
 ];
